@@ -1,2 +1,4 @@
-# Jac-Wraps-Website
-A website redesign of jacwraps.com for Jac Wraps
+# Jac Wraps Website
+A website redesign for Jac Wraps. 
+
+Click here for [original site](jacwraps.com).
