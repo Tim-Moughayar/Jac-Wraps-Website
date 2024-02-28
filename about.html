@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>	
+        <title>About - Jac Wraps</title>
+        <meta name="description" content="">
+        <!--
+            Timothy El Moughayar
+            Web 150, Final Project
+            11/29/2023
+
+            Resources:
+            https://stackoverflow.com/questions/18462603/fixed-header-is-not-fixed-to-top-of-the-page
+            https://www.w3schools.com/css/css3_borders.asp
+            https://govisually.com/blog/ui-and-ux-design/
+            https://www.w3schools.com/tags/tag_button.asp
+            https://www.youtube.com/watch?v=HbBMp6yUXO0
+            https://www.youtube.com/watch?v=PwWHL3RyQgk
+            https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Aligning_items_in_a_flex_container
+        -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="jac_wraps.css">
+        <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon"> 
+    </head>
+
+    <body id="wrapper">
+        <header class="primary-header flex">
+            <div>
+                <img src="media/jacwraps_logo.jpg" class="logo" alt="Jac Wraps Logo">
+            </div>
+                <nav>
+                    <ul class="primary-nav flex">
+                        <li><a href="https://web150w80u06.hcoding.net//publish/home.html">Home</a></li>
+                        <li><a href="https://web150w80u06.hcoding.net//publish/services.html">Services</a></li>
+                        <li><a href="https://web150w80u06.hcoding.net//publish/contact.html">Contact</a></li>
+                        <li><a href="https://web150w80u06.hcoding.net//publish/about.html">About</a></li>
+                    </ul>
+                </nav>
+        </header>
+        <main>
+            <section class="pageTitleAndNav">
+                <div class="breadcrumbNav flex"> 
+                    <a href="https://web150w80u06.hcoding.net//publish/home.html">Home</a>
+                    <label>></label>
+                    <a>About</a>
+                </div>
+                <div>
+                    <h1 class="sectionTitle pageTitle">About Us</h1>
+                </div>
+            </section>
+            <section class="aboutHome">
+                <div class="flex">
+                    <div id="aboutPictureHomeContainer">
+                        <img src="media/chicago_with_jacwraps_logo.png" id="aboutPictureHome" alt="Jac Wraps overlayed ontop of a picture of the Navy Pier in Chicago.">
+                    </div>
+                    <div class="aboutHomeText flex">
+                        <p>Jac Wraps is a family owned business, <br>
+                            proudly serving nationwide clients and our <br>
+                            local communities.</p>
+                        <p>Our goal is to help establishments like yours create brand <br> 
+                            recognition through various vinyl installations. We offer a wide <br> 
+                            range of products to suit your goals and budget. From business <br> 
+                            hour signs to a fleet of vehicles, the possibilities are endless!</p>
+                    </div>
+                </div>
+            </section>
+            <section id="videoSection" class="flex">
+                <div id="embeddedVideo">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EDd0c0BRdLg?si=rjPqVY62GTQQYNWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </section>
+            <br>
+            <br>
+            <section class="contactFooter flex">
+                <h1>Have any questions?</h1>
+                <a href="https://web150w80u06.hcoding.net//publish/contact.html#goToForm">
+                    <button type="button" class="contactUSButton buttonWhite">Contact Us</button>
+                </a>
+                
+            </section>
+        </main>
+        <footer class="flex">
+            <div class="flex">
+                <label>
+                    Resources:
+                </label>
+                <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.3m.com%2F3M%2Fen_US%2Frestyling-studio-us%2F&sa=D&sntz=1&usg=AOvVaw3KOup4oAvNyhvGfzATrLZl" target="_blank">3M Restyling Studio</a>
+                <a href="https://graphics.averydennison.com/content/dam/averydennison/graphics/na/en/documents/sell-sheets-and-brochures/color-guide/na-swf-color-card-en.pdf" target="_blank">Avery Wrapping Film</a>
+            </div>
+            <div class="flex">
+                <label>
+                    Contact:
+                </label>
+                <p>7034 N Milwaukee Ave.<br>
+                    Niles, IL 60714</p>
+                <p>
+                    (773) 203-6780
+                </p>            
+            </div>
+        </footer>
+    </body>
+</html>

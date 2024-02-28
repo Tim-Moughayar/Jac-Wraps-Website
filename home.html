@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>	
+        <title>Home - Jac Wraps</title>
+        <meta name="description" content="">
+        <!--
+            Timothy El Moughayar
+            Web 150, Final Project
+            12/7/2023
+
+            Resources:
+            https://stackoverflow.com/questions/18462603/fixed-header-is-not-fixed-to-top-of-the-page
+            https://www.w3schools.com/css/css3_borders.asp
+            https://govisually.com/blog/ui-and-ux-design/
+            https://www.w3schools.com/tags/tag_button.asp
+            https://www.youtube.com/watch?v=HbBMp6yUXO0
+            https://www.youtube.com/watch?v=PwWHL3RyQgk
+            https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Aligning_items_in_a_flex_container
+            https://stackoverflow.com/questions/27333250/why-is-my-favicon-not-working-on-server-but-is-working-locally
+        -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="jac_wraps.css">
+        <link rel="icon" type="image/x-icon" href="/media/favicon.ico">
+        <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon"> 
+    </head>
+
+    <body id="wrapper">
+        <header class="primary-header flex">
+            <div>
+                <img src="media/jacwraps_logo.jpg" class="logo" alt="Jac Wraps Logo">
+            </div>
+                <nav>
+                    <ul class="primary-nav flex">
+                        <li><a href="https://web150w80u06.hcoding.net//publish/home.html">Home</a></li>
+                        <li><a href="https://web150w80u06.hcoding.net//publish/services.html">Services</a></li>
+                        <li><a href="https://web150w80u06.hcoding.net//publish/contact.html">Contact</a></li>
+                        <li><a href="https://web150w80u06.hcoding.net//publish/about.html">About</a></li>
+                    </ul>
+                </nav>
+        </header>
+        
+        <main>
+            <section class="hero flex">
+                <div class="heroText">
+                    <h1>Elevate Your Brand <br>with Vehicle Wraps<br> and Graphics</h1>
+                    <a href="https://web150w80u06.hcoding.net//publish/contact.html">
+                        <button type="button" class="callToAction buttonBlack">Free Estimate</button>
+                    </a>
+                </div>
+                <div class="heroImages flex">
+                    <img src="media/carwrap_50.jpg" alt="Car being wrapped">
+                </div>
+            </section>
+            
+            <section class="servicesHome flex">
+                <div class="flex">
+                    <h1 class="sectionTitle whiteText">Our Services</h1>
+                </div id="servicesCardGroup flex">
+                <a href="https://web150w80u06.hcoding.net//publish/vehicle_wraps.html">
+                    <div class="vehicleWrapCard flex">
+                        <img src="media/vanwrap.jpg" alt="Van with custom design">
+                        <div class="infoPanel flex">
+                            <div class="infoPanelText flex">
+                                <h2>Vehicle Wraps</h2>
+                                <hr>
+                                <div class="subcategoriesText flex">
+                                    <ul class="columnOne">
+                                        <li>Fleet Graphics</li>
+                                        <li>Color Change</li>
+                                    </ul>
+                                    <ul class="columnTwo">
+                                        <li>Paint Protection Film</li>
+                                        <li>Chrome Delete</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://web150w80u06.hcoding.net//publish/commercial_graphics.html">
+                    <div class="commercialGaphicsCard flex">
+                        <img src="media/storefront1.jpg" alt="Vinyl graphics being applied to storefront">
+                        <div class="infoPanel flex">
+                            <div class="infoPanelText flex">
+                                <h2>Commercial Graphics</h2>
+                                <hr>
+                                <div class="subcategoriesText flex">
+                                    <ul class="columnOne">
+                                        <li>Storefront</li>
+                                        <li>Privacy Film</li>
+                                    </ul>
+                                    <ul class="columnTwo">
+                                        <li>Window</li>
+                                        <li>Wall & Floor</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </section>
+            <section class="aboutHome">
+                <div class="flex">
+                    <h1 class="sectionTitle">About Us</h1>
+                </div>
+                <div class="flex" id="about_content">
+                    <div id="aboutPictureHomeContainer">
+                        <img src="media/chicago_with_jacwraps_logo.png" id="aboutPictureHome" alt="Jac Wraps overlayed ontop of a picture of the Navy Pier in Chicago.">
+                    </div>
+                    <div class="aboutHomeText flex">
+                        <p>Jac Wraps is a family owned business, <br>
+                            proudly serving nationwide clients and our <br>
+                            local communities.</p>
+                        <p>Our goal is to help establishments like yours create brand <br> 
+                            recognition through various vinyl installations. We offer a wide <br> 
+                            range of products to suit your goals and budget. From business <br> 
+                            hour signs to a fleet of vehicles, the possibilities are endless!</p>
+                    </div>
+                </div>
+            </section>
+            <section class="contactFooter flex">
+                <h1>Have any questions?</h1>
+                <a href="https://web150w80u06.hcoding.net//publish/contact.html#goToForm">
+                    <button type="button" class="contactUSButton buttonWhite">Contact Us</button>
+                </a>
+                
+            </section>
+        </main>
+
+        <footer class="flex">
+            <div class="flex">
+                <label>
+                    Resources:
+                </label>
+                <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.3m.com%2F3M%2Fen_US%2Frestyling-studio-us%2F&sa=D&sntz=1&usg=AOvVaw3KOup4oAvNyhvGfzATrLZl" target="_blank">3M Restyling Studio</a>
+                <a href="https://graphics.averydennison.com/content/dam/averydennison/graphics/na/en/documents/sell-sheets-and-brochures/color-guide/na-swf-color-card-en.pdf" target="_blank">Avery Wrapping Film</a>
+            </div>
+            <div class="flex">
+                <label>
+                    Contact:
+                </label>
+                <p>7034 N Milwaukee Ave.<br>
+                    Niles, IL 60714</p>
+                <p>
+                    (773) 203-6780
+                </p>            
+            </div>
+        </footer>
+    </body>
+</html>
