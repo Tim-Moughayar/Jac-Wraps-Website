@@ -2,7 +2,7 @@
 A website redesign for Jac Wraps.
 
 ## How to Run
-Open this link: []()
+Redesigned Website: [Home - Jac Wraps](https://tim-moughayar.github.io/Jac-Wraps-Website/web_pages/home.html)
 <br>
 
-*Jac Wrap's original site:* [jacwraps.com](jacwraps.com)
+Original site: [jacwraps.com](jacwraps.com)
